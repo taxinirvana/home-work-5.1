@@ -25,6 +25,7 @@ class SQRServiceTest {
         int actual = service.countSquares(minimum, maximum);
         assertEquals(expected, actual);
     }
+
     @Test
     void countSquaresB() {
         SQRService service = new SQRService();
